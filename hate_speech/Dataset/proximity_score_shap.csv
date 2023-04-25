@@ -1,0 +1,74 @@
+,predicted_label,explanation_label,proximity score
+0,Introduction,Introduction,0.0
+1,Depression,Depression,0.0
+2,Introduction,Introduction,0.0
+3,Depression,Depression,0.0
+4,Grey Area,Grey Area,0.0
+5,Depression,Depression,0.0
+6,Depression,Depression,0.0
+7,Depression,Depression,0.0
+8,Introduction,Grey Area,0.0
+9,Introduction,Grey Area,0.0
+10,Depression,Depression,0.0
+11,Depression,Grey Area,0.0
+12,Grey Area,Grey Area,0.0
+13,Introduction,Grey Area,0.0
+14,Introduction,Introduction,0.0
+15,Grey Area,Grey Area,0.0
+16,Grey Area,Grey Area,0.0
+17,Grey Area,Grey Area,0.0
+18,Depression,Depression,0.0
+19,Grey Area,Grey Area,0.0
+20,Introduction,Introduction,0.0
+21,Depression,Depression,0.0
+22,Grey Area,Grey Area,0.0
+23,Depression,Grey Area,0.0
+24,Depression,Depression,0.0
+25,Depression,Depression,0.0
+26,Depression,Grey Area,0.0
+27,Grey Area,Grey Area,0.0
+28,Depression,Depression,0.0
+29,Grey Area,Grey Area,0.0
+30,Depression,Grey Area,0.0
+31,Depression,Depression,0.0
+32,Depression,Grey Area,0.0
+33,Depression,Grey Area,0.0
+34,Depression,Depression,0.0
+35,Depression,Depression,0.0
+36,Introduction,Grey Area,0.0
+37,Depression,Depression,0.0
+38,Introduction,Grey Area,0.0
+39,Depression,Depression,0.0
+40,Depression,Depression,0.0
+41,Grey Area,Grey Area,0.0
+42,Depression,Depression,0.0
+43,Introduction,Grey Area,0.0
+44,Depression,Grey Area,0.0
+45,Introduction,Grey Area,0.0
+46,Depression,Depression,0.0
+47,Depression,Depression,0.0
+48,Grey Area,Grey Area,0.0
+49,Introduction,Introduction,0.0
+50,Introduction,Grey Area,0.0
+51,Depression,Depression,0.0
+52,Introduction,Introduction,0.0
+53,Depression,Depression,0.0
+54,Depression,Grey Area,0.0
+55,Depression,Grey Area,0.0
+56,Depression,Depression,0.0
+57,Grey Area,Introduction,0.0
+58,Depression,Depression,0.0
+59,Introduction,Introduction,0.0
+60,Depression,Depression,0.0
+61,Depression,Grey Area,0.0
+62,Depression,Depression,0.0
+63,Depression,Grey Area,0.0
+64,Introduction,Introduction,0.0
+65,Introduction,Grey Area,0.0
+66,Introduction,Introduction,0.0
+67,Depression,Depression,0.0
+68,Introduction,Introduction,0.0
+69,Depression,Grey Area,0.0
+70,Grey Area,Grey Area,0.0
+71,Depression,Depression,0.0
+72,Depression,Depression,0.0
