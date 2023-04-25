@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1vgMBx29QcPyh3yAagacSBDqey-Ci3wdA
 """
 
-!git clone https://github.com/ChaitaliV/Objective-criterias-to-quantify-the-accuracy-of-explanation
-
 # https://tfhub.dev/google/collections/bert/1 load models from here
 hub_preprocessor_model = "https://tfhub.dev/tensorflow/bert_en_cased_preprocess/3"
 hub_transformer_model = "https://tfhub.dev/tensorflow/bert_en_cased_L-12_H-768_A-12/4"
