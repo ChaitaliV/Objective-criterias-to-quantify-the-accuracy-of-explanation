@@ -27,8 +27,8 @@ class Encoder(tf.keras.Model):
 class HFEncoder(tf.keras.Model):
     def __init__(self):
         super(HFEncoder,self).__init__()
-        self.preprocess_layer = AutoTokenizer.from_pretrained(hf_preprocessor)
-        self.transformer_encoder = TFAutoModel.from_pretrained(hf_encoder,from_pt=True)
+        self.preprocess_layer = AutoTokenizer.from_pretrained(hf_preprocessor,max_length=512, truncation=True)
+        self.transformer_encoder = TFAutoModel.from_pretrained(hf_encoder,from_pt=True,max_length=512, truncation=True)
 
     def call(self,input):
         layer_out = self.preprocess_layer(input,return_tensors="tf", padding=True)
