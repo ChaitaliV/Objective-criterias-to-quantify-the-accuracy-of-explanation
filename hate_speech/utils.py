@@ -20,8 +20,8 @@ def load_partial_data(csv_path, n=-1): # if n=-1 it will load all data
     if n == -1:
         n = len(df)
     for idx in df.index:
-        text = df["tweet"][idx]
-        label = df["class"][idx]
+        text = df["Text"][idx]
+        label = df["Label"][idx]
         texts.append(text)
         labels.append(label)
         c += 1
