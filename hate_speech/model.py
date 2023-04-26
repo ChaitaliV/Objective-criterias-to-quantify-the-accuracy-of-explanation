@@ -27,8 +27,8 @@ class Encoder(tf.keras.Model):
 class HFEncoder(tf.keras.Model):
     def __init__(self):
         super(HFEncoder,self).__init__()
-        self.preprocess_layer = AutoTokenizer.from_pretrained(hf_preprocessor,max_length=128, truncation=True)
-        self.transformer_encoder = TFAutoModel.from_pretrained(hf_encoder,from_pt=True,max_length=128)
+        self.preprocess_layer = AutoTokenizer.from_pretrained(hf_preprocessor)
+        self.transformer_encoder = TFAutoModel.from_pretrained(hf_encoder,from_pt=True)
 
     def call(self,input):
         layer_out = self.preprocess_layer(input,return_tensors="tf", padding=True)
@@ -191,6 +191,7 @@ class AttentionClassifier():
             wa = sum(a_score)
             word_attention.append([word,wa])
         return word_attention,label
+
 
     def get_subword_span(self,input_text):
         sub_word_ids = self.encoder_layer.preprocess_layer.encode(input_text)
