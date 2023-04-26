@@ -3,7 +3,7 @@ hub_preprocessor_model = "https://tfhub.dev/tensorflow/bert_en_cased_preprocess/
 hub_transformer_model = "https://tfhub.dev/tensorflow/bert_en_cased_L-12_H-768_A-12/4"
 hf_preprocessor = "google/muril-base-cased"
 hf_encoder = "google/muril-base-cased"
-data_root = "data"
+data_root = 'Objective-criterias-to-quantify-the-accuracy-of-explanation/dd_classification/data'
 # for colab
 # data_root = "/content/drive/MyDrive/Test_Executions/hate_speech_classification/data"
 train_csv_file = "%s/hate_speech_train.csv" % data_root
