@@ -178,7 +178,6 @@ class AttentionClassifier():
     def predict_with_explain(self,input_text,ind2label):
         word_ids,pred,attention_score = self.predict(input_text)
         label = ind2label[str(np.argmax(pred,-1)[0])]
-        print(label)
         attention_score = tf.squeeze(tf.squeeze(attention_score,-1),0)
         attention_score = tf.make_ndarray(tf.make_tensor_proto(attention_score))
         word_span = self.get_subword_span(input_text)
